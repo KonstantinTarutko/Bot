@@ -8,7 +8,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from sqlite import db_start, create_profile, edit_profile_back_call, edit_profile_currently
 
 storage = MemoryStorage()
-bot = Bot('6031580210:AAH9XcHzZPMHAW0vWAtbZBM5F8p8tnLNhf0')
+bot = Bot('###')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 
